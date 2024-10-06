@@ -1,0 +1,51 @@
+.operate {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+    &::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 200%;
+        height: 1px;
+        background-color: #788298;
+        transform-origin: left top;
+        transform: scale(.5);
+    }
+
+    .addImage {
+        padding: 0 20px;
+        position: relative;
+
+        .fileInput {
+            cursor: pointer;
+            position: absolute;
+            opacity: 0;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+        }
+    }
+
+    .del {
+        padding: 0 20px;
+    }
+}
+.ImageUploader {
+    width: 100%;
+
+    .adm-space-horizontal > .adm-space-item {
+        margin-right: 0;
+    }
+
+}

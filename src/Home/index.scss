@@ -1,0 +1,31 @@
+.homeContainer {
+    box-sizing: border-box;
+    width: 750px;
+    height: 100vh;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    .unorderedListOutline {
+        font-size: 50px;
+        position: fixed;
+        top: 635px;
+        left: 0;
+        z-index: 10;
+    }
+
+    .toggleCon {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .govCon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+
+        .link {
+            color: #ccc;
+        }
+    }
+}

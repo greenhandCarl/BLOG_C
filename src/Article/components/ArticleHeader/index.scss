@@ -1,0 +1,22 @@
+.articleHeader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+
+    .icon {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 38px;
+        padding-right: 32px;
+        font-size: 34px;
+        color: #303030;
+    }
+}
